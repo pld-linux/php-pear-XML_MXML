@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Framework to build Macromedia Flex applications
-Summary(pl):	%{_pearname} - Framework do budowania aplikacja Macromedia Flex
+Summary(pl):	%{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	1
@@ -13,7 +13,7 @@ License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	5a0eedc90e97ce4b751d77b2046f69ae
-URL:		http://pear.php.net/package/Class_Subclass/
+URL:		http://pear.php.net/package/XML_MXML/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-pear
 BuildArch:	noarch
@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Flex enables enterprise-class Rich Internet Applications and is
 designed to address a certain class of problems around multistep
 processes, client-side validation, data manipulation, and data
-visualization. This package allows you to build flex documents
+visualization. This package allows you to build Flex documents
 programatically.
 
 MXML is the XML language for writing Macromedia Flex applications that
@@ -38,10 +38,24 @@ The API follows closely Stephan Schmidts XUL-Package.
 
 In PEAR status of this package is: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Flex daje mo¿liwo¶æ tworzenia bogatych aplikacji internetowych klasy
+korporacyjnej i jest zaprojektowany do rozwi±zywania pewnej klasy
+problemów zwi±zanych z procesami wielokrokowymi, kontrol± poprawno¶ci
+po stronie klienta, obróbk± danych i wizualizacj± ich. Ten pakiet
+umo¿liwia programowe budowanie dokumentów Fleksa.
+
+MXML to jêzyk XML do pisania aplikacji Macromedia Flex, których mo¿na
+u¿ywaæ do uk³adania komponentów interfejsu u¿ytkownika.
+
+Mo¿na tak¿e u¿ywaæ MXML to deklaratywnego definiowania niewizualnych
+aspektów aplikacji, takich jak dostêp do ¼róde³ danych po stronie
+serwera i wi±zañ danych miêdzy komponentami interfejsu u¿ytkownika a
+¼ród³ami danych po stronie serwera.
+
+To API jest zgodne z XUL-Package Stephana Schmidta.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
