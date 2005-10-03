@@ -8,14 +8,17 @@ Summary:	%{_pearname} - Framework to build Macromedia Flex applications
 Summary(pl):	%{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
-Release:	2.1
+Release:	2.2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	5a0eedc90e97ce4b751d77b2046f69ae
 URL:		http://pear.php.net/package/XML_MXML/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+Requires:	php-common >= 3:5.0.0
 Requires:	php-pear
+Requires:	php-pear-XML_Util >= 0.5.2
+Requires:	php-pear-XML_Parser >= 1.1.0
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
