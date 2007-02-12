@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - Framework to build Macromedia Flex applications
-Summary(pl):	%{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
+Summary(pl.UTF-8):   %{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
 Release:	3
@@ -44,20 +44,20 @@ The API follows closely Stephan Schmidts XUL-Package.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Flex daje mo¿liwo¶æ tworzenia bogatych aplikacji internetowych klasy
-korporacyjnej i jest zaprojektowany do rozwi±zywania pewnej klasy
-problemów zwi±zanych z procesami wielokrokowymi, kontrol± poprawno¶ci
-po stronie klienta, obróbk± danych i wizualizacj± ich. Ten pakiet
-umo¿liwia programowe budowanie dokumentów Fleksa.
+%description -l pl.UTF-8
+Flex daje moÅ¼liwoÅ›Ä‡ tworzenia bogatych aplikacji internetowych klasy
+korporacyjnej i jest zaprojektowany do rozwiÄ…zywania pewnej klasy
+problemÃ³w zwiÄ…zanych z procesami wielokrokowymi, kontrolÄ… poprawnoÅ›ci
+po stronie klienta, obrÃ³bkÄ… danych i wizualizacjÄ… ich. Ten pakiet
+umoÅ¼liwia programowe budowanie dokumentÃ³w Fleksa.
 
-MXML to jêzyk XML do pisania aplikacji Macromedia Flex, których mo¿na
-u¿ywaæ do uk³adania komponentów interfejsu u¿ytkownika.
+MXML to jÄ™zyk XML do pisania aplikacji Macromedia Flex, ktÃ³rych moÅ¼na
+uÅ¼ywaÄ‡ do ukÅ‚adania komponentÃ³w interfejsu uÅ¼ytkownika.
 
-Mo¿na tak¿e u¿ywaæ MXML to deklaratywnego definiowania niewizualnych
-aspektów aplikacji, takich jak dostêp do ¼róde³ danych po stronie
-serwera i wi±zañ danych miêdzy komponentami interfejsu u¿ytkownika a
-¼ród³ami danych po stronie serwera.
+MoÅ¼na takÅ¼e uÅ¼ywaÄ‡ MXML to deklaratywnego definiowania niewizualnych
+aspektÃ³w aplikacji, takich jak dostÄ™p do ÅºrÃ³deÅ‚ danych po stronie
+serwera i wiÄ…zaÅ„ danych miÄ™dzy komponentami interfejsu uÅ¼ytkownika a
+ÅºrÃ³dÅ‚ami danych po stronie serwera.
 
 To API jest zgodne z XUL-Package Stephana Schmidta.
 
@@ -65,7 +65,7 @@ Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -74,7 +74,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
