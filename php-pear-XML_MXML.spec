@@ -8,7 +8,7 @@ Summary:	%{_pearname} - Framework to build Macromedia Flex applications
 Summary(pl.UTF-8):	%{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
 Name:		php-pear-%{_pearname}
 Version:	0.3.0
-Release:	3
+Release:	4
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
