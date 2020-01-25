@@ -1,6 +1,5 @@
 %define		_status		alpha
 %define		_pearname	XML_MXML
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - Framework to build Macromedia Flex applications
 Summary(pl.UTF-8):	%{_pearname} - Szkielet do budowania aplikacji Macromedia Flex
 Name:		php-pear-%{_pearname}
